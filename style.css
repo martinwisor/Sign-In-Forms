@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+}
+
+.grandParentContainer {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.parentContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.parentContainer #loginForm {
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 10%;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-weight: lighter;
+  color: grey;
+}
+
+p {
+  color: grey;
+}
+
+.sans {
+  color: grey;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: royalblue;
+  color: white;
+  width: 100%;
+}
+
+table {
+  color: grey;
+  border-bottom: 1px solid grey;
+  width: 100%;
+}
